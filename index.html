@@ -5,9 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Stuff</h1>
+    <header>
+        <h1>Css Snippets!</h1>
+        <p>Who wants to memorize lots of CSS? Not me! use these snippets instead!</p>
+    </header>
+    <main>
+        <figure>
+            <h2>CSS Variables</h2>
+            <div class="flex">
+            <p>instead of copying and pasting gradients and hex codes, use variables!</p>
+
+                <section>
+                    <pre><code>:root {
+    --light-blue:#3498db;
+    --codeblock-graident: linear-gradient(to top, #06beb6, #48b1bf);
+}
+
+section {
+    color:var(--light-blue);
+    background:(--codeblock-graident)
+}</code></pre>
+            </section>
+        </div>
+        </figure>
+       
+        <figure>
+            <h2>Box Shadow</h2>
+            <div class="flex">
+            <p>add cool shadow effects with blur and all </p>
+
+                <section>
+                    <pre><code>section {
+    box-shadow:5px 5px 20px salmon;
+}</code></pre>
+            </section>
+        </div>
+        </figure>
+       
+        <figure>
+            <h2>Translate</h2>
+            <div class="flex">
+            <p>rotate and scale are really fun</p>
+
+                <section>
+                    <pre><code>section {
+    translate:rotate(45deg) scale(1.5,1);
+}</code></pre>
+            </section>
+        </div>
+        </figure>
+       
+        <figure>
+            <h2>Fixed Position</h2>
+            <div class="flex">
+            <p>Want an invasive add you cant get away from? here ya go!</p>
+
+                <section>
+                    <pre><code>section {
+    position:fixed;
+    top:50%;
+    left:50%;
+}</code></pre>
+            </section>
+        </div>
+        </figure>
+       
+        <figure>
+            <h2>CSS Varibles</h2>
+            <div class="flex">
+            <p>instead of copying and pasting gradients and hex codes, use variables!</p>
+
+                <section>
+                    <pre><code>:root {
+    --light-blue:#3498db;
+    --codeblock-graident: linear-gradient(to top, #06beb6, #48b1bf);
+}
+
+section {
+    color:var(--light-blue);
+    background:(--codeblock-graident)
+}
+                </code></pre>
+            </section>
+        </div>
+        </figure>
+       
+        <figure>
+            <h2>CSS Variables</h2>
+            <div class="flex">
+            <p>instead of copying and pasting gradients and hex codes, use variables!</p>
+
+                <section>
+                    <pre><code>:root {
+    --light-blue:#3498db;
+    --codeblock-graident: linear-gradient(to top, #06beb6, #48b1bf);
+}
+
+section {
+    color:var(--light-blue);
+    background:(--codeblock-graident)
+}
+                </code></pre>
+            </section>
+        </div>
+        </figure>
+       
+    </main>
+    <footer>
+        <h3>Made with ❤️ and CSS</h3>
+    </footer>
 </body>
 </html>
