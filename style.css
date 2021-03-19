@@ -48,6 +48,7 @@ figure {
     border:1px dashed gray;
     margin: 5px 0;
     width: 33%;
+    min-height:400px;
     
 }
 
@@ -58,6 +59,7 @@ figure:hover, figure:hover h2{
 
 figure h2, figure p {
     color:var(--light-blue);
+    height:10%;
 }
 
 figure h2 {
@@ -68,13 +70,6 @@ figure h2 {
     position: relative;
     bottom: 10px;
     background-color: #34495e
-}
-
-.flex {
-    display: flex;
-    flex-wrap:wrap;
-    min-height:90%;
-    align-content: flex-start;
 }
 
 figure p {
@@ -90,6 +85,8 @@ figure section {
     background:var(--codeblock-graident);
     align-self: stretch;
     user-select: all;
+    overflow: scroll;
+    height:70%;
     
 }
 
