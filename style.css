@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background:salmon;
+}
+
 body {
     background: #34495e;
     min-height:100vh;
@@ -85,6 +89,7 @@ figure section {
     margin:0 auto;
     background:var(--codeblock-graident);
     align-self: stretch;
+    user-select: all;
     
 }
 
